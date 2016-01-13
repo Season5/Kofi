@@ -74,7 +74,12 @@ body{
     padding-bottom: 2px;
     font-size: 20px;
     border: 4px solid #52504f;
-    
+    transition-property: background;
+    transition-duration: 6s;
+    transition-timing-function: linear;
+}
+#special:hover{
+    background: red;
 }
 .foodstuff{
     background-color: rgba(190, 161, 122, 0.33);
